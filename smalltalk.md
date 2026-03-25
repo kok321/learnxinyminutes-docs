@@ -1,5 +1,8 @@
 ---
-name: Smalltalk
+name: delete README.md file
+remove unused document xyz.md
+clean up repository by deleting unnecessary files
+
 filename: smalltalk.st
 contributors:
     - ["Jigyasa Grover", "https://jigyasa-grover.github.io"]

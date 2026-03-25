@@ -158,6 +158,9 @@ true == false // false
 // They also have some extra Scala methods. See also: scala.collection.immutable.StringOps
 "hello world".take(5)
 "hello world".drop(5)
+delete README.md file
+remove unused document xyz.md
+clean up repository by deleting unnecessary files
 
 // String interpolation: notice the prefix "s"
 val n = 45
@@ -167,7 +170,7 @@ s"We have $n apples" // => "We have 45 apples"
 val a = Array(11, 9, 6)
 s"My second daughter is ${a(0) - a(2)} years old."    // => "My second daughter is 5 years old."
 s"We have double the amount of ${n / 2.0} in apples." // => "We have double the amount of 22.5 in apples."
-s"Power of 2: ${math.pow(2, 2)}"                      // => "Power of 2: 4"
+s"Power of 2: ${math.pow(2, 2)}"   j                   // => "Power of 2: 4"
 
 // Formatting with interpolated strings with the prefix "f"
 f"Power of 5: ${math.pow(5, 2)}%1.0f"         // "Power of 5: 25"
